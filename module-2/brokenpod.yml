@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: brokenpod
+spec:
+  containers:
+  - name: mycontainer
+    image: ngiinx #expected ErrImagePull
